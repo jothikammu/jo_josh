@@ -1,50 +1,66 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>register page</title>
-        <link rel="stylesheet" href="../static/css/style.css">
-    </head>
-    <style>
-        body {
-          background-image: url("../static/css/landing.jpg");  
-          background-size: cover;
-          position: relative;
-          width: 100%;
-          min-height: 100vh;
-          display: flex;
-          flex-direction: column;
-          justify-content: flex-start;
-          background-position:center ;
-          background-attachment: fixed;
-        }
-        </style>
-    <center>
-    <h1 style="font-size:50px;"> BORN 2 WIN  <br> WAY 2 SUCCESS</h1><br><br><br>
-    <div class="log"> 
-        <form action="login.html" method=post">
 
-            <label> <strong>FIRSTNAME:</strong> </label>
-            <input type="text" placeholder="enter your firstname" required style="width: 300px;height: 25px;" >
-            <br>
-            <br>
-            <label> <strong>LASTNAME: </strong></label>
-            <input type="text" placeholder="enter your lastname" required style="width: 300px;height: 25px;">
-            <br>
-            <br>
-            <label><strong> MAILID:</strong> </label>
-            <input type="text" placeholder="enter your mail id" required style="width: 300px;height: 25px;">
-            <br>
-            <br>
-            <label><strong> PASSWORD:</strong> </label>
-            <input type="password" placeholder="enter your password" required, style="width: 300px;height: 25px;">
-            <br>
-            <br>
-            <label><strong> CONFIRM PASSWORD:</strong> </label>
-            <input type="password" placeholder="Repeat your password" required style="width: 300px;height: 25px;">
-            <br>
-            <br>
-    <p style="color: black;"><strong> creating an account you agree to our <a href="#" style="color: white;">Terms & Privacy</a></strong></p><br><br>
-    <button type="submit" class="registerbtn" style="color: whitesmoke;
+<head>
+  <title>register page</title>
+  <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<style>
+  body {
+    background-image: url("../static/css/landing.jpg");
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-position: center;
+    background-attachment: fixed;
+  }
+</style>
+  <h1 style="font-size:50px;color: white; text-align: center;"> BORN 2 WIN <br> WAY 2 SUCCESS</h1>
+  <div class="log" style=" margin:0 auto; ">
+    <form action="login.html" method=post>
+      <table>
+        <tr>
+          <td><label> <strong>FIRSTNAME:</strong> </label></td>
+          <td><input type="text" placeholder="enter your firstname" required style="width: 300px;height: 30px;"></td>
+        </tr>
+        <br>
+        <tr>
+          <td><label> <strong>LASTNAME: </strong></label></td>
+          <td><input type="text" placeholder="enter your lastname" required style="width: 300px;height: 30px;"></td>
+        </tr>
+        <br>
+        <tr>
+          <td><label><strong> MAILID:</strong> </label></td>
+          <td><input type="text" placeholder="enter your mail id" required style="width: 300px;height: 30px;"></td>
+        </tr>
+        
+
+        <tr>
+          <td><label><strong> PASSWORD:</strong> </label></td>
+          <td><input type="password" placeholder="enter your password" required, style="width: 300px;height: 30px;">
+          </td>
+        </tr>
+        
+
+        <tr>
+          <td><label><strong> CONFIRM PASSWORD:</strong> </label></td>
+          <td><input type="password" placeholder="Repeat your password" required style="width: 300px;height: 30px;">
+          </td>
+        </tr>
+        
+        <tr>
+          <td>&nbsp;</td>
+          <td>
+            <p style="color: black;"><strong> creating an account you agree to our <a href="#"X style="color: white;"><br>Terms & Privacy</a></strong></p>
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td><button type="submit" class="registerbtn" style="color: whitesmoke;
     background: #226a80;
     text-decoration:none ;
     text-transform: uppercase;
@@ -52,9 +68,11 @@
     letter-spacing: 2px;
     padding: 10px 20px;
     border-radius: 5px;
-    transition: 0.3s;">Register</button>
+    transition: 0.3s;">Register</button></td>
+        </tr>
   </div>
-</center>
-  </form>
+  </table>
+</form>
 </body>
+
 </html>

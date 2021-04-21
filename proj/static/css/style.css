@@ -91,20 +91,21 @@ section {
     background: white;
     color: #226a80;
 }
+.media-icons{
+    text-align: center;
+    
+}
 
 .media-icons a{
     position: relative;
-    color: #226a80;
+    color: rgb(19, 178, 226);
     font-size: 30px;
     transition: 0.3s;
     transition-property: transfom;
     justify-content: space-evenly;
     align-items: center;
-    
-}
-
-.media-icons a:not(:last-child){
-    margin-left: 120px;
+    text-align: center;
+    padding: 0 50px;
 }
 
 .media-icons a:hover{
